@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.header{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: maroon;
+    margin: 0;
+}
+.welcome-text h1{
+    display: inline;
+    
+    color: gray;
+}
+.welcome-text{
+    text-align: right;
+    margin-right: 10px;
+}
+.logo h1{
+    display: inline;
+    color: white;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.menubar{
+    position: sticky;
+    background-color: purple;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+   
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menubar ul li:hover{
+    background-color: black;
+}
